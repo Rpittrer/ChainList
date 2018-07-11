@@ -7,8 +7,8 @@ contract Migrations {
     modifier restricted() {
         if (msg.sender == owner) _;
     }
-    
-    costructor () public {
+
+    function Migrations() public {
         owner = msg.sender;
     }
 
