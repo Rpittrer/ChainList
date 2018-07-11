@@ -8,7 +8,7 @@ contract Migrations {
         if (msg.sender == owner) _;
     }
 
-    function Migrations() public {
+    constructor () public {
         owner = msg.sender;
     }
 
@@ -18,6 +18,6 @@ contract Migrations {
 
     function upgrade(address new_address) public restricted {
         Migrations upgraded = Migrations(new_address);
-        upgraded.setCompleted(last_completed_migration);
+upgraded.setCompleted(last_completed_migration);
     }
 }

@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c1adf40e-3903-4051-8e0f-575523f0dc8f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ChainListHappyPath.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/ChainListHappyPath.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/ChainList.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/ChainList.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/Migrations.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/Migrations.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truffle.js" beforeDir="false" afterPath="$PROJECT_DIR$/truffle.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="Migrations.sol" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contracts/Migrations.sol">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="304">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -37,8 +37,17 @@
       <file leaf-file-name="ChainList.sol" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contracts/ChainList.sol">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="truffle.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/truffle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -82,10 +91,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/a.js" />
-        <option value="$PROJECT_DIR$/contracts/Migrations.sol" />
-        <option value="$PROJECT_DIR$/contracts/ChainList.sol" />
         <option value="$PROJECT_DIR$/src/js/app.js" />
         <option value="$PROJECT_DIR$/test/ChainListHappyPath.js" />
+        <option value="$PROJECT_DIR$/contracts/ChainList.sol" />
+        <option value="$PROJECT_DIR$/contracts/Migrations.sol" />
+        <option value="$PROJECT_DIR$/truffle.js" />
       </list>
     </option>
   </component>
@@ -130,18 +140,18 @@
             <path>
               <item name="chainlist" type="b2602c69:ProjectViewProjectNode" />
               <item name="chainlist" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chainlist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chainlist" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="contracts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chainlist" type="b2602c69:ProjectViewProjectNode" />
               <item name="chainlist" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chainlist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chainlist" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="contracts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chainlist" type="b2602c69:ProjectViewProjectNode" />
@@ -196,12 +206,12 @@
       <workItem from="1530859180210" duration="3331000" />
       <workItem from="1531115135546" duration="1311000" />
       <workItem from="1531151904987" duration="1685000" />
-      <workItem from="1531288384076" duration="3326000" />
+      <workItem from="1531288384076" duration="8011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10043000" />
+    <option name="totallyTimeSpent" value="14728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -214,7 +224,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.1963001" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28674203" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -319,22 +329,12 @@
     <entry file="file://$PROJECT_DIR$/bs-config.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/Migrations.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/a.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truffle.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/ChainListHappyPath.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -348,15 +348,29 @@
         <state relative-caret-position="-1294" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/ChainList.sol">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/Migrations.sol">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="304">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/contracts/ChainList.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truffle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
