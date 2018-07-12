@@ -9,6 +9,7 @@ contract ChainList is Ownable {
         address seller;
         address buyer;
         string name;
+        string sellerName;
         string description;
         uint256 price;
     }
