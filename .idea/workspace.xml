@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1adf40e-3903-4051-8e0f-575523f0dc8f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/contracts/ChainList.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/ChainList.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ChainListExceptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/ChainListExceptions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ChainListHappyPath.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/ChainListHappyPath.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truffle.js" beforeDir="false" afterPath="$PROJECT_DIR$/truffle.js" afterDir="false" />
-    </list>
+    <list default="true" id="c1adf40e-3903-4051-8e0f-575523f0dc8f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -144,7 +137,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="570" />
     <option name="width" value="940" />
     <option name="height" value="1080" />
@@ -233,16 +226,15 @@
       <workItem from="1531151904987" duration="1685000" />
       <workItem from="1531288384076" duration="8011000" />
       <workItem from="1531374432722" duration="167000" />
-      <workItem from="1531380477799" duration="250000" />
+      <workItem from="1531380477799" duration="348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15145000" />
+    <option name="totallyTimeSpent" value="15243000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14797261" />
       <window_info anchor="bottom" id="TODO" order="6" />
