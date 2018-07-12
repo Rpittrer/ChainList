@@ -9,7 +9,6 @@ contract ChainList is Ownable {
         address seller;
         address buyer;
         string name;
-        string sellerName;
         string description;
         uint256 price;
     }
@@ -53,7 +52,7 @@ contract ChainList is Ownable {
             _price
         );
 
-        LogSellArticle(articleCounter, msg.sender, _name, _price);
+        emit LogSellArticle(articleCounter, msg.sender, _name, _price);
     }
 
     // fetch the number of articles in the contract
@@ -111,6 +110,6 @@ contract ChainList is Ownable {
         article.seller.transfer(msg.value);
 
         // trigger the event
-        LogBuyArticle(_id, article.seller, article.buyer, article.name, article.price);
+        emit LogBuyArticle(_id, article.seller, article.buyer, article.name, article.price);
     }
 }
